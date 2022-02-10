@@ -606,6 +606,7 @@ progress {
   max-width: 100%;
   height: auto;
 }
+
 .bandef{
   display: none;
   white-space: nowrap;
