@@ -301,6 +301,20 @@ figure {
 }
 
 img,
+.bandef{
+  display: none;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: marquee 20s linear infinite; /* Chrome, Safari, Opera */
+  animation: marquee 20s linear infinite; /* Vitesse de défilement */
+}
+
+/*  Arrêt du défilement au survol */
+.bandef:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused
+}
+
 svg {
   vertical-align: middle;
 }
@@ -11562,7 +11576,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
