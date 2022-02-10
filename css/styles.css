@@ -11545,6 +11545,20 @@ body {
     border-bottom: 0.25rem solid #64a19d;
   }
 }
+.bandef{
+  display: none;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: marquee 20s linear infinite; /* Chrome, Safari, Opera */
+  animation: marquee 20s linear infinite; /* Vitesse de défilement */
+}
+
+/*  Arrêt du défilement au survol */
+.bandef:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused
+}
+
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -11568,20 +11582,6 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
-.bandef{
-    display: none;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: marquee 20s linear infinite; /* Chrome, Safari, Opera */
-    animation: marquee 20s linear infinite; /* Vitesse de défilement */
-}
- 
-/*  Arrêt du défilement au survol */
-.bandef:hover {
-    -webkit-animation-play-state: paused;
-    animation-play-state: paused
-}
-
 .masthead h1, .masthead .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
