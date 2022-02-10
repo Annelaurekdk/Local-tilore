@@ -11544,21 +11544,6 @@ body {
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
   }
-}
-.bandef{
-  display: none;
-  white-space: nowrap;
-  overflow: hidden;
-  -webkit-animation: marquee 20s linear infinite; /* Chrome, Safari, Opera */
-  animation: marquee 20s linear infinite; /* Vitesse de défilement */
-}
-
-/*  Arrêt du défilement au survol */
-.bandef:hover {
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused
-}
-
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
