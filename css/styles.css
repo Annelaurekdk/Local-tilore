@@ -11628,9 +11628,9 @@ body {
   padding: 3rem;
   font-size: 90%;
 }
-@media (min-width: 992px) {
+@media (min-width: 980px) {
   .projects-section .project-text {
-    padding: 3rem;
+    padding: 5rem;
   }
   .projects-section .project-text hr {
     border-color: #64a19d;
