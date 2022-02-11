@@ -11708,9 +11708,8 @@ body {
 
 .module__text {
   text-align: right;
-  width: 130px;
-  height: 100px;
-  float: left;
-  margin-right: 30px
+  justify-content: space-between
+  height"100" 
+  width="130"
   
 }
