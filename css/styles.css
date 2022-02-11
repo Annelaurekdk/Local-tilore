@@ -11626,9 +11626,9 @@ body {
 }
 .projects-section .project-text {
   padding: 3rem;
-  font-size: 90%;
+  font-size: 70%;
 }
-@media (min-width: 980px) {
+@media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
   }
