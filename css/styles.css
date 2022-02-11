@@ -11703,9 +11703,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 .module__text {
   text-align: right;
+  margin-bottom: 10px;
 }
