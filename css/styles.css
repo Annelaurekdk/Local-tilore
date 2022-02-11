@@ -11703,7 +11703,7 @@ body {
   display:flex;
   justify-content: space-between;
   align-items: right;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .module__text {
