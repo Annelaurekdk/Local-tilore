@@ -11709,7 +11709,9 @@ body {
 .module__text {
   text-align: right;
   align-items:right
-  margin-bottom: 5px;
+  font-style: normal;
+  
+
   
   
 }
