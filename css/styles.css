@@ -11701,8 +11701,8 @@ body {
 
 .module {
   display:flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   margin-bottom: 10px;
 }
 
