@@ -11617,6 +11617,8 @@ body {
 }
 .projects-section .featured-text {
   padding: 2rem;
+  .text-align-left{
+    text-align:left;
 }
 @media (min-width: 992px) {
   .projects-section .featured-text {
@@ -11680,7 +11682,7 @@ body {
   margin-top: 5rem;
 }
 .contact-section .social a {
-  text-align: right;
+  text-align: center;
   height: 3rem;
   width: 3rem;
   background: rgba(255, 255, 255, 0.1);
