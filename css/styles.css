@@ -11700,9 +11700,9 @@ body {
 }
 
 .module {
-  display:inline flex;
+  display:flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: right;
   margin-bottom: 10px;
 }
 
