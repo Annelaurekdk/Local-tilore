@@ -304,6 +304,9 @@ img,
 svg {
   vertical-align: middle;
 }
+.flotte {
+  float:left;
+  }
 
 table {
   caption-side: bottom;
@@ -11637,9 +11640,6 @@ body {
     width: 30%;
   }
 }
-.flotte {
-  float:left;
-  }
 
 .signup-section {
   padding: 10rem 0;
