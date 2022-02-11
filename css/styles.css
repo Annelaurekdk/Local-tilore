@@ -11637,8 +11637,6 @@ body {
     border-width: 0.25rem;
     width: 30%;
   }
-  .text-align-left{
-    text-align:left;
 }
 
 .signup-section {
@@ -11682,7 +11680,7 @@ body {
   margin-top: 5rem;
 }
 .contact-section .social a {
-  text-align: center;
+  text-align: right;
   height: 3rem;
   width: 3rem;
   background: rgba(255, 255, 255, 0.1);
