@@ -11707,7 +11707,7 @@ body {
 }
 
 .module__text {
-  text-align: right;
+  text-align: left;
   align-items: center
   margin-bottom: 5px;
   
