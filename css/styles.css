@@ -11698,3 +11698,13 @@ body {
 .footer {
   padding: 5rem 0;
 }
+.module {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.module__text {
+  text-align: right;
+}
